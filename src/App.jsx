@@ -8,7 +8,8 @@ import MainLayout from "./Layouts/MainLayout";
 import HomePage from "./pages/HomePage";
 import JobsPage from "./pages/JobsPage";
 import NotFoundPage from "./pages/NotFoundPage";
-import JobPage, { jobLoader } from "./pages/JobPage";
+import JobPage from "./pages/JobPage";
+import jobLoader from "./helperFunctions/jobLoader";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
